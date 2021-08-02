@@ -12,7 +12,7 @@ restart:
 	@make build
 	@make up
 app:
-	docker-compose exec app bash
+	docker-compose exec app zsh
 ps:
 	docker-compose ps
 logs:
