@@ -1,0 +1,13 @@
+version: "3"
+services:
+  app:
+    build: .
+    volumes:
+      - ./APP/:/var/src
+    ports:
+      - '3000:3000'
+    tty: true
+    command: >
+      bash -c "bundle install --path=vendor/bundle -j 4 &&
+        bundle exec rails db:setup &&
+        bundle exec rails s -b 0.0.0.0"
