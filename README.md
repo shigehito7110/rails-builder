@@ -25,5 +25,6 @@ $ make restart
 
 show help:
 ```bash
-$ bash init.sh --help or -h
+$ bash init.sh --help
+ ## alias -h
 ```
