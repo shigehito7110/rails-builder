@@ -4,6 +4,7 @@ This is simple docker environment for build rails app.
 
 #### environment
 ruby v.2.6.3
+
 bundler v.2.2.0
 ## Usage
 
