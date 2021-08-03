@@ -72,7 +72,7 @@ run() {
 [ -d ./Src ] && srcExist
 
 ([ -z $1 ] || [ ! -z $3 ]) && usage
-[ $1 === "--help" ] || [ $1 === "-h" ]
+([ $1 == "--help" ] || [ $1 == "-h" ]) && usage
 
 run $@ && \
 make restart && \
