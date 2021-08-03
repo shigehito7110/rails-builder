@@ -22,7 +22,7 @@ TEXT
 
 srcExist() {
   cat << TEXT
-SrcExistError: directory named Src is invalid using this script.
+SrcExistError: directory named Src existing in this repogitory now is invalid using this script.
 
 Local:                Docker:
 ******************    ******************
@@ -33,7 +33,7 @@ Local:                Docker:
 *                *    *                *
 ******************    ******************
 
-cause: directory fetchd from hosting services for git are rename to Src.
+cause: directory fetchd from hosting services for git should be renamed to Src.
 if you wanna try codes in Src now, run following command.
 
           $ make restart
