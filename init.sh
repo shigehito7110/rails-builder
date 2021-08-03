@@ -60,7 +60,7 @@ TEXT
 run() {
   if [ -z $2 ]; then
     (
-      git clone $1 Src > /dev/null 2>&1 || inValidError $@
+      git clone $1 Src > /dev/null 2>&1 || inValidError $1
     )
   else
     (
