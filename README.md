@@ -15,7 +15,7 @@ $ cd rails_builder
 ```
 * runing codes on the git hosting services.
 ```bash
-$ bash init.sh <git repogiroty url>
+$ bash init.sh <git repogitory url>
 
 ## specify branch
 $ bash init.sh <git repogitory url> <branch name>
