@@ -34,13 +34,15 @@ Local:                Docker:
 ******************    ******************
 
 cause: directory fetchd from hosting services for git should be renamed to Src.
-if you wanna try codes in Src now, run following command.
+if you wanna try codes in Src now, run following command next time.
+Now, this scripts will done these :)
 
           $ make restart
 
 TEXT
 
-  exit 1
+  make restart && make app
+  exit 0
 }
 
 inValidError() {
